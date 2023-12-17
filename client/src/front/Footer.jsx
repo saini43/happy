@@ -36,19 +36,19 @@ const Footer = () => {
             <div className="col-lg-3 col-md-3 col-sm-2 col-6 footer_contact">
               <div className="row">
                 <div className="col-lg-12 col-sm-12">
-                  <a href="#">Contact Us</a>
+                  <a href="#">Query</a>
                 </div>
                 <div className="col-lg-12 col-sm-12">
-                  <a href="#">About Us</a>
+                  <a href="About.jsx">About Us</a>
                 </div>
                 <div className="col-lg-12 col-sm-12">
                   <a href="#">Services</a>
                 </div>
                 <div className="col-lg-12 col-sm-12">
-                  <a href="#">Sign up</a>
+                  <a href="Signup.jsx">Sign up</a>
                 </div>
                 <div className="col-lg-12 col-sm-12">
-                  <a href="#">Login</a>
+                  <a href="Login.jsx">Login</a>
                 </div>
               </div>
             </div>
@@ -76,14 +76,10 @@ const Footer = () => {
             <div className="col-lg-3 col-sm-2 col-12" > <div className="dropdown">
             <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
               data-bs-toggle="dropdown" aria-expanded="false">
-              English
+              Contact Us
             </a>
 
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li><a className="dropdown-item" href="#">Hindi</a></li>
-              <li><a className="dropdown-item" href="#">Marathi</a></li>
-              <li><a className="dropdown-item" href="#">Telgu</a></li>
-            </ul>
+           
           </div></div>
            
             

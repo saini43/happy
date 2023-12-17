@@ -1,4 +1,4 @@
-// Header.jsx
+
 
 
 
@@ -12,7 +12,7 @@ const Header = () => {
   
 let nav = document.querySelector(".navbar");
 window.onscroll = function () {
-    if(document.documentElement.scrollTop > 15){
+    if(document.documentElement.scrollTop > 20){
         nav.classList.add("header-scrolled");
     }else{
         nav.classList.remove("header-scrolled");
@@ -20,13 +20,16 @@ window.onscroll = function () {
 
     }
 
-    let navBar = document.querySelectorAll(".nav-link");
+
+    //Nav hide
+let navBar = document.querySelectorAll(".nav-link");
 let navcollapse = document.querySelector(".navbar-collapse.collapse");
 navBar.forEach(function(a){
     a.addEventListener("click", function(){
         navcollapse.classList.remove("show");
     })
 })
+
   return (
     <header className="header_wrapper">
       <nav className="navbar navbar-expand-lg fixed-top">
@@ -90,7 +93,7 @@ navBar.forEach(function(a){
                 placeholder="Search by course name"
                 aria-label="Search"
               />
-             <button type="button" className="btn btn-success">Search</button>
+             <button type="button" className="btn btn-success btx">Search</button>
             </form> 
           </div>
         </div>

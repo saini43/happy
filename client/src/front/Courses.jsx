@@ -30,24 +30,8 @@ import part4 from '../images/partners/part4.png'
 import instructor from '../images/courses/instructor-2x-v3.jpg'
 
 const Courses = () => {
-   
-let nav = document.querySelector(".navbar");
-window.onscroll = function () {
-    if(document.documentElement.scrollTop > 20){
-        nav.classList.add("header-scrolled");
-    }else{
-        nav.classList.remove("header-scrolled");
-    }
-
-    }
-
-    let navBar = document.querySelectorAll(".nav-link");
-let navcollapse = document.querySelector(".navbar-collapse.collapse");
-navBar.forEach(function(a){
-    a.addEventListener("click", function(){
-        navcollapse.classList.remove("show");
-    })
-})
+  
+ 
   return (
     <>
       <section className="course_form mb-5">
@@ -113,7 +97,7 @@ navBar.forEach(function(a){
                 </a>
                 <div className="card-body">
                   <a href="..">
-                    <p className="card-text">Communication Tutors</p>
+                    <p className="card-text mb-3">Communication Tutors</p>
                   </a>
                   <a href="..">
                     <h6>
@@ -140,7 +124,7 @@ navBar.forEach(function(a){
                 </a>
                 <div className="card-body">
                   <a href="..">
-                    <p className="card-text">Math Tutors</p>
+                    <p className="card-text mb-3">Math Tutors</p>
                   </a>
                   <a href="..">
                     <h6>
@@ -365,7 +349,7 @@ navBar.forEach(function(a){
                 </a>
                 <div className="card-body">
                   <a href="..">
-                    <p className="card-text">Spanish Tutors</p>
+                    <p className="card-text mb-3">Spanish Tutors</p>
                   </a>
                   <a href="..">
                     <h6>
@@ -392,7 +376,7 @@ navBar.forEach(function(a){
                 </a>
                 <div className="card-body">
                   <a href="..">
-                    <p className="card-text">Writing Tutors</p>
+                    <p className="card-text mb-3">Writing Tutors</p>
                   </a>
                   <a href="..">
                     <h6>

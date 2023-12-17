@@ -4,6 +4,7 @@ import axios from 'axios';
 import { Link,useNavigate } from "react-router-dom";
 
  import '../CSS/login.css'
+ 
 
 const serverURL = 'http://localhost:3001';
 
@@ -54,11 +55,14 @@ function Login(){
         <h2>Password</h2>
         <input type="password" placeholder="Password" name="password" onChange={(e) => setPassword(e.target.value)} />
         </div>
-        <button type="submit">Login</button>
+        
         <span>
           Don't have an account ? <Link to="/register">Create One.</Link>
         </span>
+        <div><button type="button" className="btn btn-success">Search</button></div>
+       
       </form>
+      
     </div>
   );
 }
