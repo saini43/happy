@@ -1,5 +1,6 @@
 .formbox{
-    padding:4rem
+    display: grid;
+    place-items: center;
 }
 
 .signbox{

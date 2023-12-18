@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-//  import './qcc.css'
+//  import '..CSS/query.css';
 
 const Query = () => {
   const [queries, setQueries] = useState([]);
@@ -65,7 +65,7 @@ const Query = () => {
   };
 
   return (
-    <div>
+    <div className='query'>
       <h2>Past Queries</h2>
       <ul>
         {queries.map(query => (
@@ -95,7 +95,7 @@ const Query = () => {
         <textarea value={newQuery} onChange={handleNewQueryChange} />
       </div>
       <div>
-        <button onClick={handlePostQuery}>Post Query</button>
+        <button className='btn btn-success' onClick={handlePostQuery}>Post Query</button>
       </div>
     </div>
   );

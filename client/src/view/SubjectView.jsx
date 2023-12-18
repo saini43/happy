@@ -30,7 +30,7 @@ const SubjectView = () => {
       <Link to="/mathvideoview">Math View</Link>
       
       {/* Logout button */}
-      <button onClick={handleLogout}>Logout</button>
+      <button className='btn btn-success' onClick={handleLogout}>Logout</button>
     </div>
   );
 };

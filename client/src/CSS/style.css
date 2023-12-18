@@ -164,13 +164,14 @@ p{
 /*(2) NAVBAR */
 
 .header_wrapper{
-     margin-bottom: 6rem;
+     /* margin-bottom: 6rem; */
 } 
 
 .header_wrapper .navbar{
 
     -webkit-transition:all .2s linear;
     transition: all .2s linear;
+    position: relative;
     
     
     

@@ -16,6 +16,8 @@
 }
 
 .formbox{
+    display: grid;
+    place-items: center;
 
     
   
