@@ -62,6 +62,16 @@ a{
     box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
 }
 
+.shadow:hover{animation: pulse 2s infinite;}
+@keyframes pulse{
+    0%,100%{transform: scale(1);}
+    50%{transform:scale(1.2);}
+   
+}
+    
+
+
+
 .shadow p{
     border-bottom: 1px solid #777;
 }

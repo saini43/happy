@@ -164,7 +164,7 @@ p{
 /*(2) NAVBAR */
 
 .header_wrapper{
-     /* margin-bottom: 6rem; */
+      /* margin-bottom: 6rem;  */
 } 
 
 .header_wrapper .navbar{
@@ -172,6 +172,7 @@ p{
     -webkit-transition:all .2s linear;
     transition: all .2s linear;
     position: relative;
+    
     
     
     
@@ -312,11 +313,26 @@ p{
 }
 
 
+.services_wrapper .card:hover{animation: bounce 2s infinite;}
+  @keyframes bounce{
+    0% {transform: translateY(0);}
+    40% {transform: translateY(-20px);}
+    60% {transform: translateY(-10px);}
+
+
+  }
+
+
+
+
 .services_wrapper .card i{
     font-size: 2.4rem;
     color:#000;
     
 }
+
+
+
 
 /*4th section*/
 
@@ -333,12 +349,18 @@ p{
     align-items: center;
     gap: 1rem;
 
-    &:hover{
+    
       
     }
 
+  
+
+  .Exams .Exam:hover{
+   transform: translate(-1px,-2px);
 
   }
+   
+
 
   .Exams i{
     color: rgb(102, 237, 141);
@@ -349,14 +371,27 @@ p{
   /*EVENTS*/
   .Events .row .card{
     transition: all 0.3s;
+
     
   }
 
+.box-shadow:hover{animation: bounce 2s infinite;}
+  @keyframes bounce{
+    0% {transform: translateY(0);}
+    40% {transform: translateY(-20px);}
+    60% {transform: translateY(-10px);}
 
-  .Events .row .card:hover{
-    transform:scale(1.1);
 
   }
+
+
+
+
+
+
+
+
+ 
 
   .Events .row .card img{
     border-radius: 20px 20px 20px 20px;

@@ -110,7 +110,10 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 text-center mb-2">
-              <h2>SERVICES OFFERS</h2>
+           
+  
+            <h2>SERVICES OFFERS</h2>
+
               <p>
                 We specialize in Educational services tailored to meet your
                 digital needs and <br className="d-none d-lg-block" /> Our team
